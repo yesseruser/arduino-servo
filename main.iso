@@ -5,7 +5,7 @@ Servo ourServo;
 void setup() {
   // put your setup code here, to run once:
   naseServo.attach(9);
-  naseServo.write(180);
+  
 }
 
 void loop() {

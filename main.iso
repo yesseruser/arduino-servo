@@ -1,14 +1,16 @@
 #include <Servo.h>
 #define SERVO_PIN 9
+#define POTENCIOMETR A0
 Servo ourServo;
 
 void setup() {
   // put your setup code here, to run once:
-  naseServo.attach(9);
-  
+  naseServo.attach(SERVO_PIN);
+  pinMode(POTENCIOMETR, INPUT);
+  Serial.begin(115200);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-
+  
 }
